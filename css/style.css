@@ -51,20 +51,23 @@ body {
 
 .link-download {
   display: inline-block;
+  padding-left: 30px;
   font-weight: 700;
   font-size: 18px;
   color: #3f2aff;
-  padding-left: 30px;
-  background-image: url("../img/download.png");
   background-position: left center;
   background-size: 20px 20px;
   background-repeat: no-repeat;
 }
 
+.link-download-img {
+  background-image: url("../img/download.png");
+}
+
 .link:not(:last-child) {
   margin-right: 25px;
 }
-
+/*=============== ARTICLE =============== */
 .container {
   margin: 0 auto;
   padding: 80px 0;
@@ -112,6 +115,8 @@ body {
   border-radius: 20px;
   padding: 30px;
   background-color: #f3f3f3;
+  background-position: right center;
+  background-repeat: no-repeat;
 }
 
 .title-article-grey-block:not(:last-child) {
@@ -128,14 +133,10 @@ body {
 
 .grey-block-image-first {
   background-image: url("../img/decorate-1.png");
-  background-position: right center;
-  background-repeat: no-repeat;
 }
 
 .grey-block-image-second {
   background-image: url("../img/decorate-2.png");
-  background-position: right center;
-  background-repeat: no-repeat;
 }
 
 .head-h2 {
@@ -198,14 +199,18 @@ body {
 .figcation-title {
   border: 1px solid #b6b6b6;
   border-top: none;
-  padding: 19px;
+  padding-top: 19px;
+  padding-bottom: 19px;
   font-weight: 400;
   font-size: 14px;
   text-align: center;
 }
 
+/*=============== MODULES ===============*/
 .container {
   margin: 0 auto;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
   max-width: 1170;
 }
 
@@ -215,14 +220,13 @@ body {
 }
 
 .link-to-back {
-  display: block;
   margin: 0;
+  display: block;
+  padding-left: 45px;
+  margin-bottom: 25px;
   color: #3F2AFF;
   font-size: 20px;
   font-weight: 400;
-  padding-left: 45px;
-  margin-bottom: 25px;
-
 }
 
 .link-to-back-img {
@@ -234,37 +238,35 @@ body {
 }
 
 .h1-module {
-  display: block;
   margin: 0;
+  display: block;
+  margin-bottom: 50px;
   color: #3F2AFF;
   font-size: 60px;
   font-weight: 700;
-  margin-bottom: 50px;
 }
 
 .cards {
   margin: 0;
   padding-left: 0;
-  font-size: 0;
   margin-bottom: 25px;
+  font-size: 0;
 }
 
 .cards-element {
-  display: inline-block;
-  box-sizing: border-box;
+  position: relative;
   margin: 0;
   width: 572px;
   height: 505px;
+  margin-bottom: 25px;
+  display: inline-block;
+  box-sizing: border-box;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.10);
   list-style-type: none;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top center;
-  position: relative;
-  /* background-position: top center; */
-  /* padding-right: 25px; */
-  /* сьехала верстка */
-  /* vertical-align: top; */
+
 }
 
 .cards-element-img1 {
@@ -283,63 +285,21 @@ body {
   background-image: url("../img/module-4.jpg");
 }
 
-
-/* .cards-element:nth-child(1) {
-  background-image: url("../img/module-1.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: top center;
-  background-size: 572px 180px;
-}
-
-.cards-element:nth-child(2) {
-  background-image: url("../img/module-2.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.cards-element:nth-child(3) {
-  background-image: url("../img/module-3.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.cards-element:nth-child(4) {
-  background-image: url("../img/module-4.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-} */
-
 .cards-element:nth-child(2n-1) {
   margin-right: 25px;
-  margin-bottom: 25px;
 }
-
-
-/* .cards-element:not(:nth-child(2n)) {
-  margin-bottom: 25px;
-  margin-right: 25px;
-} */
-
-/* .img-modules {
-  margin: 0;
-  width: 572px;
-  height: 180px;
-  margin-bottom: 25px;
-} */
 
 .h2-modules {
   margin: 0;
   margin-left: 25px;
+  padding-top: 205px;
+  margin-bottom: 2px;
   color: #3F2AFF;
   font-size: 40px;
   font-weight: 700;
-  /* margin-top: 205px; */
-  padding-top: 205px;
-  margin-bottom: 2px;
 }
 
 .cards-text {
-  /* display: block; */
   margin: 0;
   padding: 0;
   margin-left: 25px;
@@ -355,28 +315,26 @@ body {
 }
 
 .span-card {
+  position: absolute;
+  top: 434px;
+  right: 25px;
   color: #EAEAEA;
   text-align: right;
   font-size: 40px;
   font-weight: 400;
-  position: absolute;
-  top: 434px;
-  right: 25px;
 }
 
+.parrent-button {
+  text-align: center;
+}
 
 .button {
-  margin: 0 auto;
-  display: block;
-  background-color: #ffffff;
+  box-sizing: border-box;
   width: 274px;
   height: 70px;
-  /* padding: 25px 76px; */
-  align-items: center;
   border: 2px solid #3F2AFF;
-
   color: #3F2AFF;
-  text-align: center;
+  background-color: #ffffff;
   font-size: 18px;
   font-weight: 700;
 }

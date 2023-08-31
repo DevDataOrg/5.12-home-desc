@@ -207,30 +207,34 @@ body {
 }
 
 /*=============== MODULES ===============*/
-.container {
+.container-modules {
   margin: 0 auto;
-  /* padding-top: 50px;
-  padding-bottom: 50px; */
-  max-width: 1170;
+  padding: 50px 0;
+  width: 1170px;
 }
 
 .logo-link-modules {
   display: block;
   margin-bottom: 25px;
+  width: 137px;
+  height: 30px;
 }
 
 .link-to-back {
   margin: 0;
   display: block;
-  padding-left: 45px;
+  padding-top: 1px;
+  padding-left: 52px;
   margin-bottom: 25px;
-  color: #3F2AFF;
+  width: 160px;
   font-size: 20px;
   font-weight: 400;
+  stroke-width: 1px;
+  color: #3f2aff;
 }
 
 .link-to-back-img {
-  background-image: url("../img/Arrow\ 1.svg");
+  background-image: url("../img/Arrow-1.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left center;
@@ -241,9 +245,9 @@ body {
   margin: 0;
   display: block;
   margin-bottom: 50px;
-  color: #3F2AFF;
   font-size: 60px;
   font-weight: 700;
+  color: #3f2aff;
 }
 
 .cards {
@@ -255,12 +259,11 @@ body {
 
 .cards-element {
   position: relative;
+  display: inline-block;
   margin: 0;
   width: 572px;
   height: 505px;
   margin-bottom: 25px;
-  display: inline-block;
-  box-sizing: border-box;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.10);
   list-style-type: none;
   background-repeat: no-repeat;
@@ -291,37 +294,37 @@ body {
 
 .h2-modules {
   margin: 0;
-  margin-left: 25px;
+  padding-left: 25px;
   padding-top: 205px;
   margin-bottom: 2px;
-  color: #3F2AFF;
   font-size: 40px;
   font-weight: 700;
+  color: #3f2aff;
 }
 
 .cards-text {
   margin: 0;
   padding: 0;
-  margin-left: 25px;
+  padding-left: 25px;
 }
 
 .cards-text-element {
   margin: 0;
   list-style-type: none;
-  color: #333;
   font-size: 20px;
   font-weight: 400;
   line-height: 35px;
+  color: #333;
 }
 
 .span-card {
   position: absolute;
-  top: 434px;
+  bottom: 25px;
   right: 25px;
-  color: #EAEAEA;
   text-align: right;
   font-size: 40px;
   font-weight: 400;
+  color: #eaeaea;
 }
 
 .parrent-button {
@@ -330,11 +333,11 @@ body {
 
 .button {
   box-sizing: border-box;
-  width: 274px;
-  height: 70px;
-  border: 2px solid #3F2AFF;
-  color: #3F2AFF;
-  background-color: #ffffff;
+  padding: 25px 70px 25px 70px;
   font-size: 18px;
   font-weight: 700;
+  cursor: pointer;
+  border: 2px solid #3f2aff;
+  color: #3f2aff;
+  background-color: #ffffff;
 }
